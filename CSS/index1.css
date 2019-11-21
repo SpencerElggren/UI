@@ -287,5 +287,10 @@ redditsub {
   color: black;
 }
 /* CSS Document */
+.team {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=index1.css.map */
