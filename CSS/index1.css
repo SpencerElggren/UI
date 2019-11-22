@@ -244,6 +244,7 @@ redditsub {
   align-items: center;
   justify-content: space-evenly;
   padding: 3rem 0;
+  flex-direction: column-reverse;
 }
 .solution section {
   width: 40%;
@@ -263,6 +264,7 @@ redditsub {
 }
 .how section {
   width: 40%;
+  margin: 0 1rem;
 }
 @media (max-width: 600px) {
   .how {
