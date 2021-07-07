@@ -1,0 +1,316 @@
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Raleway', sans-serif;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+/* CSS Document */
+/* CSS Document */
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+}
+.header .nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+@media (max-width: 600px) {
+  .header .nav {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+@media (max-width: 600px) {
+  .header a {
+    padding-bottom: 1rem;
+    text-align: center;
+    border-top: solid gray 1px;
+  }
+}
+.header .button {
+  background-color: #0079D3 ;
+  color: white;
+  padding: .5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+@media (max-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+  }
+}
+.titleStatement {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 2rem;
+  width: 100%;
+  height: 50rem;
+  background-image: linear-gradient(to bottom left, orangered, yellow);
+}
+/* CSS Document */
+redditsub {
+  margin: 0 2rem;
+  max-width: 40%;
+}
+.problem {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+}
+.problem section {
+  width: 40%;
+}
+@media (max-width: 600px) {
+  .problem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.solution {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+  flex-direction: column-reverse;
+}
+.solution section {
+  width: 40%;
+}
+@media (max-width: 600px) {
+  .solution {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.how {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+}
+.how section {
+  width: 40%;
+  margin: 0 1rem;
+}
+@media (max-width: 600px) {
+  .how {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.upvotes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* CSS Document */
+.footer {
+  background-color: lightgray;
+  height: 4rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+.footer .footContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footContent a {
+  text-decoration: none;
+  color: black;
+}
+/* CSS Document */
+.team {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.profiles {
+  display: flex;
+  flex-wrap: wrap;
+}
+.profiles section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  padding-bottom: 1rem;
+}
+
+/*# sourceMappingURL=index1.css.map */
